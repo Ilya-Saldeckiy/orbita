@@ -41,6 +41,10 @@ img{
     background: linear-gradient(268.03deg, #8E1DD1 0.3%, #8466FB 90.62%);
 }
 
+.main-wrapper-content-cell {
+    padding: 0px 10px 0 !important;
+}
+
 /* -------header */
 
 .header{
@@ -117,6 +121,7 @@ img{
 
 .position-header{
     display: flex;
+    margin-bottom: 30px;
 }
 
 .parent{
@@ -133,7 +138,7 @@ img{
     width: 1150px;
     position: absolute;
     background-color: #ffffff;
-    height: 200px;
+    height: 115px;
     top: 140px;
     border-radius: 49px 49px 0 0;
     text-align: center;
@@ -210,4 +215,111 @@ img{
     background-color: #ffffff;
     color: #8E21D4;
     padding: 20px 125px;
+}
+
+
+
+/* ----------stock-market */
+
+.information-people{
+    display: flex;
+    margin: 0 auto;
+    width: 1150px;
+    padding-left: 100px;
+}
+
+.image-profile{
+    border-radius: 50%;
+}
+
+.image-position{
+    margin-right: 50px;
+    width: 25%;
+}
+
+.reviews{
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.reviews-text{
+    padding:20px 50px 20px 160px;
+    background: #F8F8F8;
+    border-radius: 27px;
+}
+
+.d::before{
+    content: " ";
+    float: left;
+    margin-left: -115px;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(90deg, rgba(132, 103, 251, 0.5) 0%, rgba(142, 32, 211, 0.5) 100%);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.info-position-name{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.subtitle{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.info-position-prof{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-position-description{
+    width: 400px;
+}
+
+.info-position{
+    width: 35%;
+    margin-right: 45px;
+}
+
+.info-position-effect-job{
+    font-size: 26px;
+    width: 115%;
+}
+
+.btn-marcket{
+    display: block;
+    background-color: #8466FB;
+    border-radius: 49px;
+    padding: 15px 100px;
+}
+
+.link-marcket-position{
+    padding-top: 50px;
+}
+
+.btn-accept{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.btn-next{
+    background: none;
+    border: 1px solid #8466FB;
+    color: #8466FB;
+}
+
+.reviews-caption{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.reviews-description{
+    color: rgba(0, 0, 0, 0.54);
 }
